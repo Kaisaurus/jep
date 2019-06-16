@@ -1,56 +1,23 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
-mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+title: Japan Euro Promotions
+image: /img/jep-unsplash-1.jpg
+heading: Connecting Worlds
+# subheading: 世界をつなぐ
 intro:
-  blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  en:
+    title: Connecting Worlds
+    body: >
+      Japan Euro Promotions (JEP) has functioned as a gateway from Europe to Japan and Vice versa ever since 1982. Our Japanese and European clients vary from hospitality companies to research institutions, import and export companies environmental involved companies, but also to artists, cultural theme parcs, museums, TV-stations, newspapers,.
+
+      Over the years JEP has built an extensive network of contacts in Japan and Europe and has acquired experience in various fields.
+
+      JEP has specialized not only in business consultancy for both Dutch and Japanese companies and municipalities, but also has broad experience in media coordination and planning of cultural and social events.
+  jp:
+    title: 世界をつなぐ
+    body: >
+      ジャパン・ユーロ・プロモーションは 1982年、アムステルダムで創立し、日本とオランダをはじめとする欧州の国々との政治、経済、メディア、文化の交流促進に勤めて来ました。ジャパン・ユーロ・プロモーションは 創設以来、東西の橋として企業や団体のさまざまな課題を解決し、そこに新たな生きを引き込み、また、政府、自治体、商社(しゃ)(しゃ)、企業、博物館、新聞社、テレービ局、出版翻訳(やく)通(とお)訳事務所、ＮＧＯ，ＮＰＯなどの幅広(ひろ)(ひろ)いネットワークを通して広い分野の専門的知識を貯蓄して参りました。
+      この長い経験と限りない好奇心を持って、今後とも皆様のよきパートナーとしてご奉仕させて頂きたいと存じております。
 main:
   heading: Great coffee with no compromises
   description: >
