@@ -1,15 +1,15 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
-date: 2017-01-04T15:04:10.000Z
+title: 次期世代農業
+date: 2014-01-04T15:04:00.000Z
+description: >-
+  東日本大震災以降、被災地支援のために、オランダの施設園芸やエネルギー技術などで支援ができないかと思い、オランダ、霞ヶ関、被災地を駆けずり回り、やっと花が咲きはじめました.
 featuredpost: false
-featuredimage: /img/chemex.jpg
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+featuredimage: /img/gsi-jep-king-2.jpg.jpg
 tags:
   - japanese
 ---
-
-![chemex](/img/chemex.jpg)
+![オランダ王室に東日本次世代施設園芸紹介](/img/gsi-jep-king.jpg)
 
 東日本大震災以降、被災地支援のために、オランダの施設園芸やエネルギー技術などで支援ができないかと思い、オランダ、霞ヶ関、被災地を駆けずり回り、やっと花が咲きはじめました.
 
@@ -17,6 +17,4 @@ tags:
 
 これから皆様と一緒に、共同で具体的な計画を立てて実行に移し次期世代の農業構築にお役に立ちたいと思っておりますので、今後ともよろしくお願いいたします。
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital)
-
-## The little secrets of Chemex brewing
+![](/img/gsi-jep-king-2.jpg.jpg)
