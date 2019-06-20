@@ -8,12 +8,16 @@ import useSiteMetadata from './SiteMetadata'
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div>
+    <React.Fragment>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
-
+        {/* inserting cdn is a Workaround because some bulma css wouldn't get compiled because I use Bloomer classes */}
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -45,9 +49,9 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
       <Navbar />
-      <div>{children}</div>
+      <React.Fragment>{children}</React.Fragment>
       <Footer />
-    </div>
+    </React.Fragment>
   )
 }
 

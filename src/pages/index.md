@@ -7,12 +7,12 @@ heading: Connecting Worlds
 intro:
   en:
     title: Connecting Worlds
-    body: >
+    body:
       Japan Euro Promotions (JEP) has functioned as a gateway from Europe to Japan and Vice versa ever since 1982. Our Japanese and European clients vary from hospitality companies to research institutions, import and export companies environmental involved companies, but also to artists, cultural theme parcs, museums, TV-stations, newspapers,.
 
       Over the years JEP has built an extensive network of contacts in Japan and Europe and has acquired experience in various fields.
 
-      JEP has specialized not only in business consultancy for both Dutch and Japanese companies and municipalities, but also has broad experience in media coordination and planning of cultural and social events.
+      JEP has specialized not only in business consultancy for both Dutch and Japanese companies and municipalities, but also has broad experience in media coordination and planning of cultural and social events. [Book 'Learning the Dutch Way'](/img/book-takeshi.jpg)
   jp:
     title: 世界をつなぐ
     body: >

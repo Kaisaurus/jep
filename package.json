@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
+  "name": "jep",
+  "description": "Japan Euro Promotions B.V. corporate Website",
   "version": "1.1.3",
-  "author": "Austin Green",
+  "author": "Kai Gotoh",
   "dependencies": {
     "bloomer": "^0.6.5",
     "bulma": "^0.7.0",
