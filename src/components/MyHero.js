@@ -1,13 +1,13 @@
 import React from 'react'
-import { Container, Title, Hero, HeroBody } from 'bloomer'
+import { Title, Hero, HeroBody } from 'bloomer'
 import styled from 'styled-components'
 
 const HeroTitle = styled(Title)`
   display: inline-block;
-  width: 100%;
-  max-width: 700px;
-  padding: 0.1em;
-  line-height: 1.3em;
+  /* width: 100%; */
+  /* max-width: 700px; */
+  /* padding: 0.1em; */
+  /* line-height: 1.3em; */
 `
 
 const MyHero = ({ title, isSize, isColor = 'info', bg, bgColor }) => {
@@ -19,11 +19,22 @@ const MyHero = ({ title, isSize, isColor = 'info', bg, bgColor }) => {
 
   return (
     <HeroWithBg isColor={isColor} isSize={isSize}>
-      <HeroBody>
+      <HeroBody
+        style={{
+          justifyContent: 'center',
+          textAlign: 'center'
+        }}
+      >
         {title && (
-          <Container hasTextAlign="centered">
-            <HeroTitle>{title}</HeroTitle>
-          </Container>
+          <HeroTitle
+            isSize={1}
+            className="primary-bg"
+            style={{
+              padding: '1rem 0'
+            }}
+          >
+            {title}
+          </HeroTitle>
         )}
       </HeroBody>
     </HeroWithBg>

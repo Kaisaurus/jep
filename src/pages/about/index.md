@@ -1,19 +1,37 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title:
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Japan Euro Promotions (JEP) has functioned as a gateway from Europe to Japan and Vice versa ever since 1982. Our Japanese and European clients vary from hospitality companies to research institutions, import and export companies environmental involved companies, but also to artists, cultural theme parcs, museums, TV-stations, newspapers,.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Over the years JEP has built an extensive network of contacts in Japan and Europe and has acquired experience in various fields.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+JEP has specialized not only in business consultancy for both Dutch and Japanese companies and municipalities, but also has broad experience in media coordination and planning of cultural and social events.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### Takeshi Gotoh – Profile
+
+Takeshi Gotoh has lived in the Netherlands since 1971. Director of Japan Euro Promotions and Global Bussiness advisor of Miyagi Prefecture. He has worked on building Nagasaki Holland village and Huis ten Bosch Japan. He has also helped Japanese renown writer Ryōtarō Shiba with several works. Author of several works in Japanese on health care and quality of life.
+
+- 1971 Moved to the Netherlands
+- 1976 Gemologist / Establishment of Gotoh Trading Company
+- 1982 Establishment of Japan-Euro Promotions
+- 1983 Opening of Nagasaki Holland Village
+- 1992 Opening Huis ten Bosch Japan
+
+ジャパン・ユーロ・プロモーションは 1982 年、アムステルダムで創立し、日本とオランダをはじめとする欧州の国々との政治、経済、メディア、文化の交流促進に勤めて来ました。ジャパン・ユーロ・プロモーションは 創設以来、東西の橋として企業や団体のさまざまな課題を解決し、そこに新たな生きを引き込み、また、政府、自治体、商社(しゃ)、企業、博物館、新聞社、テレービ局、出版翻訳通(とお)訳事務所、ＮＧＯ，ＮＰＯなどの幅広(ひろ)いネットワークを通して広い分野の専門的知識を貯蓄して参りました。
+
+この長い経験と限りない好奇心を持って、今後とも皆様のよきパートナーとしてご奉仕させて頂きたいと存じております。
+
+### 後藤猛(ごとうたけし) プロフィール
+
+1971 年からオランダ在住。ジャパン・ユーロ・プロモーションズ代表。宮城県グローバル・ビジネス・アドバイザー。長崎オランダ村やハウステンボスの事業開発に関わる。司馬遼太郎の「明治創生期“太郎の国の物語”」「街道をゆく“オランダ紀行”」など数多くの番組制作に協力。オランダ高等教育審議委員などを歴任。著書に『安楽死生と死を見つめる』（NHK 出版）『認知症の人が安楽死する国』(雲母書房)などがある。
+
+- 1971 年からオランダ在住
+- 1976 年宝石鑑定士・後藤貿易会社
+- 1982 年ジャパン・ユーロ・プロモーションズ創立
+- 1983 年長崎オランダ村オープン
+- 1988 年司馬遼太郎「明治創生期“太郎の国の物語”」
+- 1989 年司馬遼太郎「街道をゆく“オランダ紀行”」
+- 1992 年長崎ハウステンボスオープン

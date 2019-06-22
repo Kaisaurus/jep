@@ -3,12 +3,19 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import image from '../../static/img/jep-unsplash-5.jpg' //5 or 2
+import MyHero from '../components/MyHero'
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
     <section className="section section--gradient">
+      <MyHero
+        title={'About Japan Euro Promotions'}
+        isSize="medium"
+        bg={!!image.childImageSharp ? image.childImageSharp.fluid.src : image}
+      />
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -28,7 +35,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func,
+  contentComponent: PropTypes.func
 }
 
 const AboutPage = ({ data }) => {
@@ -46,7 +53,7 @@ const AboutPage = ({ data }) => {
 }
 
 AboutPage.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.object.isRequired
 }
 
 export default AboutPage

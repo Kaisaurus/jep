@@ -10,7 +10,7 @@ export const IndexPageTemplate = ({ image, title, intro }) => (
   <React.Fragment>
     <MyHero
       title={title}
-      isSize="large"
+      isSize="medium"
       bg={!!image.childImageSharp ? image.childImageSharp.fluid.src : image}
     />
     <Section>
