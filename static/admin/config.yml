@@ -105,9 +105,11 @@ collections:
               name: recentProjects,
               widget: list,
               fields:
-                - {label: Title, name: title, widget: string, default: "title"}
-                - {label: URL, name: url, widget: string, default: ""}
+                [
+                - {label: Title, name: title, widget: string, default: "title"},
+                - {label: URL, name: url, widget: string, default: ""},
                 - {label: Date, name: date, widget: date, default: "", format: "MM YYYY"}
+                ]
             }
           - {
               label: Past Projects,

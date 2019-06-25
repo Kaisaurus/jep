@@ -10,25 +10,18 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
-    <section className="section section--gradient">
+    <React.Fragment>
       <MyHero
-        title={'About Japan Euro Promotions'}
+        title={title}
         isSize="medium"
         bg={!!image.childImageSharp ? image.childImageSharp.fluid.src : image}
       />
       <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
+        <div className="section">
+          <PageContent className="content" content={content} />
         </div>
       </div>
-    </section>
+    </React.Fragment>
   )
 }
 
@@ -40,7 +33,7 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
-
+  console.log(post)
   return (
     <Layout>
       <AboutPageTemplate
@@ -59,11 +52,12 @@ AboutPage.propTypes = {
 export default AboutPage
 
 export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
+  query AboutPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "about-page" } }) {
       frontmatter {
         title
+        # recentProjects
+        # pastProjects
       }
     }
   }

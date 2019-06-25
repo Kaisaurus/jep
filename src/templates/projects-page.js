@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
-import { Section, Container, Title, Panel } from 'bloomer'
+import { Section, Container, Title } from 'bloomer'
+// Panel
 import Layout from '../components/Layout'
 import MyHero from '../components/MyHero'
 

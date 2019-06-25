@@ -1,7 +1,7 @@
 ---
 templateKey: 'about-page'
 path: /about
-title:
+title: boo
 ---
 
 Japan Euro Promotions (JEP) has functioned as a gateway from Europe to Japan and Vice versa ever since 1982. Our Japanese and European clients vary from hospitality companies to research institutions, import and export companies environmental involved companies, but also to artists, cultural theme parcs, museums, TV-stations, newspapers,.
