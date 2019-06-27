@@ -3,7 +3,7 @@ import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
 import MyHero from '../../components/MyHero'
 
-export default class BlogIndexPage extends React.Component {
+export default class NewsIndexPage extends React.Component {
   render() {
     return (
       <Layout>

@@ -12,8 +12,8 @@ class BlogRoll extends React.Component {
     return (
       <Columns isMultiline>
         {posts &&
-          posts.map(({ node: post }) => (
-            <Column isSize={6}>
+          posts.map(({ node: post }, i) => (
+            <Column isSize={6} key={i}>
               <article
                 className={`blog-list-item tile is-child box notification ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
@@ -47,6 +47,7 @@ class BlogRoll extends React.Component {
                   {post.excerpt}
                   <br />
                   <br />
+                  {/* check -correct link syntax */}
                   <Button to={post.fields.slug}>Keep Reading →</Button>
                 </p>
               </article>

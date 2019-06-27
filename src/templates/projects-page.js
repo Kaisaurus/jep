@@ -8,21 +8,23 @@ import MyHero from '../components/MyHero'
 
 export const ProjectsPageTemplate = ({
   image,
+  title,
   pastProjects,
   recentProjects
 }) => (
   <React.Fragment>
     <MyHero
-      title={'Projects'}
+      title={title}
       isSize="medium"
       bg={!!image.childImageSharp ? image.childImageSharp.fluid.src : image}
     />
-    <Section>
-      <Container>
+
+    <Container>
+      <Section>
         <Title tag="h2" isSize={2}>
           Recent Projects
         </Title>
-        <ul>
+        {/* <ul>
           <li>
             <a
               href="http://japan.nlembassy.org/news/2014/07/economic-mission-to-japan-and-korea-with-minister-henk-kamp.html"
@@ -94,16 +96,31 @@ export const ProjectsPageTemplate = ({
             </a>
             &nbsp;October 2012
           </li>
+         */}
+        <ul>
+          {recentProjects &&
+            recentProjects.map((project, i) => (
+              <a href="url" key={i}>
+                <li>{project.title}.title</li>
+              </a>
+            ))}
+          {/* {recentProjects} */}
         </ul>
-        {console.log(recentProjects)}
-        {recentProjects}
-      </Container>
-      <Container>
+      </Section>
+
+      <Section>
         <Title tag="h2" isSize={2}>
           Past Projects
         </Title>
-        {pastProjects}
         <ul>
+          {pastProjects &&
+            pastProjects.map((project, i) => (
+              <a href="url" key={i}>
+                <li>{project.title}.title</li>
+              </a>
+            ))}
+        </ul>
+        {/*
           <li>Television coordination for programs in Japan</li>
           <li>
             KLM: organizing Dutch open, Ladies open, Japan Rising Sun social
@@ -166,9 +183,9 @@ export const ProjectsPageTemplate = ({
           </li>
           <li>Coordination Japanese writer Shiba Ryotaro</li>
           <li>Organization of social &amp; cultural Holland – Japan events</li>
-        </ul>
-      </Container>
-    </Section>
+        */}
+      </Section>
+    </Container>
   </React.Fragment>
 )
 
@@ -181,6 +198,7 @@ const ProjectsPage = ({ data }) => {
         image={frontmatter.image}
         recentProjects={frontmatter.recentProjects}
         pastProjects={frontmatter.pastProjects}
+        title={frontmatter.title}
       />
     </Layout>
   )
@@ -193,7 +211,8 @@ ProjectsPage.propTypes = {
   }),
   pastProjects: PropTypes.shape({
     blurbs: PropTypes.array
-  })
+  }),
+  title: PropTypes.string
 }
 export default ProjectsPage
 
@@ -208,8 +227,15 @@ export const pageQuery = graphql`
             }
           }
         }
-        # recentProjects
-        # pastProjects
+        title
+        recentProjects {
+          title
+          url
+        }
+        pastProjects {
+          title
+          url
+        }
       }
     }
   }
