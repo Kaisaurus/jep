@@ -106,17 +106,41 @@ collections:
               widget: list,
               fields:
                 [
-                - {label: Title, name: title, widget: string, default: "title"},
-                - {label: URL, name: url, widget: string, default: ""},
-                - {label: Date, name: date, widget: date, default: "", format: "MM YYYY"}
-                ]
+                  {
+                    label: Title,
+                    name: title,
+                    widget: string,
+                    default: 'title',
+                  },
+                  { label: URL, name: url, widget: string, default: '' },
+                  {
+                    label: Date,
+                    name: date,
+                    widget: date,
+                    default: '',
+                    format: 'MM YYYY',
+                  },
+                ],
             }
           - {
               label: Past Projects,
               name: pastProjects,
               widget: list,
               fields:
-                - {label: Title, name: title, widget: string, default: "title"}
-                - {label: URL, name: url, widget: string, default: ""}
-                - {label: Date, name: date, widget: date, default: "", format: "MM YYYY"}
+                [
+                  {
+                    label: Title,
+                    name: title,
+                    widget: string,
+                    default: 'title',
+                  },
+                  { label: URL, name: url, widget: string, default: '' },
+                  {
+                    label: Date,
+                    name: date,
+                    widget: date,
+                    default: '',
+                    format: 'MM YYYY',
+                  },
+                ],
             }
