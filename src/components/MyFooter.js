@@ -1,13 +1,6 @@
 import React from 'react'
 import { Footer, Container, Content } from 'bloomer'
-// import styled from 'styled-components'
 import Link from 'gatsby-link'
-
-// const StickyFooter = styled(Footer)`
-//   position: absolute;
-//   bottom: 0;
-//   left: 0;
-// `
 
 const MyFooter = () => {
   return (
@@ -16,7 +9,11 @@ const MyFooter = () => {
         <Content isSize="small" hasTextAlign="centered">
           <p>Copyright Japan Euro Promotions</p>
           <p>
-            <Link to="/">Home</Link> - <Link to="/contact">Contact</Link>
+            <Link to="/">Home</Link>&nbsp;-&nbsp;
+            <Link to="/about">About</Link>&nbsp;-&nbsp;
+            <Link to="/news">News</Link>&nbsp;-&nbsp;
+            <Link to="/projects">Projects</Link>&nbsp;-&nbsp;
+            <Link to="/contact">Contact</Link>
           </p>
         </Content>
       </Container>
