@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import { Link, graphql, StaticQuery, navigateTo } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import { Columns, Column, Button } from 'bloomer'
 
@@ -48,7 +48,9 @@ class BlogRoll extends React.Component {
                   <br />
                   <br />
                   {/* check -correct link syntax */}
-                  <Button to={post.fields.slug}>Keep Reading →</Button>
+                  <Button onClick={() => navigateTo(post.fields.slug)}>
+                    Keep Reading →
+                  </Button>
                 </p>
               </article>
             </Column>
