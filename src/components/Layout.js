@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Footer from './MyFooter'
 import Navbar from '../components/Navbar'
+import 'bulma/bulma.sass'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 
@@ -13,11 +14,6 @@ const TemplateWrapper = ({ children }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
-        {/* inserting cdn is a Workaround because some bulma css wouldn't get compiled because I use Bloomer classes */}
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
-        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -47,6 +43,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
         <meta property="og:image" content="/img/og-image.jpg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Helmet>
       <Navbar />
       <React.Fragment>{children}</React.Fragment>

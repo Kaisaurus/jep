@@ -7,7 +7,8 @@ $jep-red: #c33
 
 $primary: $jep-red
 $primary-invert: $jep-red-invert
-$body-color: #333
+// $body-color: #333 // unused?
+$grey: #dedede
 $black: #2b2523
 
 .navbar .navbar-menu
@@ -87,7 +88,12 @@ $black: #2b2523
   padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
-  background-color: transparent
+.footer-links a
+  color: $black !important
+.partner-text
+  text-align: center
+  font-size: 1em
+  padding: 0 0 0.3em 0
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -119,26 +125,25 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #d6400033
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  display: flex
+  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
 
-
-@import "~bulma"
+@import "~bulma/sass/utilities/mixins"
 
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
 
 +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
