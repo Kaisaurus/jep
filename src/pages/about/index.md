@@ -22,13 +22,17 @@ content:
     en:
       title: About Japan Euro Promotions
       body:
-        Takeshi Gotoh has lived in the Netherlands since 1971. Director of Japan Euro Promotions and Global Bussiness advisor of Miyagi Prefecture. He has worked on building Nagasaki Holland village and Huis ten Bosch Japan. He has also helped Japanese renown writer Ryōtarō Shiba with several works. Author of several works in Japanese on health care and quality of life.
+        Takeshi Gotoh has lived in the Netherlands since 1971. Involved in business development of Nagasaki Holland Village and Huis Ten Bosch since 1983. Cooperated in the production of numerous programs of NHK such as Ryotaro Shiba's "Meiji era" Taro no Kuni no Monogatari "" and "Kaidowo Yuku ".  Served as a member of the Dutch Higher Education Council. Books written  include "Euthanasia and Staring at Death" (NHK Publishing) and "Country where people with dementia euthanize" (Mumbo Shobo).
 
         - 1971 Moved to the Netherlands
-        - 1976 Gemologist / Establishment of Gotoh Trading Company
-        - 1982 Establishment of Japan-Euro Promotions
-        - 1983 Opening of Nagasaki Holland Village
-        - 1992 Opening Huis ten Bosch Japan
+        - 1976 World Certified Gemnologist, establishment Goto Trading Company offering diamond expertise and trade in Antwerp
+        - 1982 Japan Euro Promotions founded for cultural and business exchange, organizing cultural exchange events
+        - 1983 Building & Coordinating Dutch museums in Nagasaki Holland Village
+        - 1989 Ryotaro Shiba "Travel in the Netherlands"
+        - 1992 Opening Nagasaki Huis ten Bosch Japan
+        - 2011 Started full-scale support for Japanese agriculture with support for the Great East Japan Earthquake, event organization KLM, Consultant to Orion, Aweta and EES
+        - 2014 Establishment of Green Square International, consultant to Vijverberg Advies Japan, Haakman Flowerbulbs, NEM HRSG, Miyagi Prefecture Global Business Advisor
+        - 2015 to present Coordination of study tours on Agriculture, Welfare and Health Care in The Netherlands
     jp:
       title: 後藤猛(ごとうたけし) プロフィール
       body:
