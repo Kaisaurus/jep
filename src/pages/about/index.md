@@ -1,7 +1,7 @@
 ---
 templateKey: 'about-page'
 path: /about
-title:
+title: About Japan Euro Promotions
 content:
   intro:
     jp:
