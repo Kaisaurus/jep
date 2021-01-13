@@ -41,6 +41,33 @@ export const AboutPageTemplate = ({
               <p>{content.profile.jp.body}</p>
             </Column>
           </Columns>
+          <Columns>
+            <Column>            
+              <ul>
+                <li>1971 Moved to the Netherlands</li>
+                <li>1976 World Certified Gemnologist, establishment Goto Trading Company offering diamond expertise and trade in Antwerp</li>
+                <li>1982 Japan Euro Promotions founded for cultural and business exchange, organizing cultural exchange events</li>
+                <li>1983 Building &nbsp; Coordinating Dutch museums in Nagasaki Holland Village</li>
+                <li>1989 Ryotaro Shiba "Travel in the Netherlands"</li>
+                <li>1992 Opening Nagasaki Huis ten Bosch Japan</li>
+                <li>2011 Started full-scale support for Japanese agriculture with support for the Great East Japan Earthquake, event organization KLM, Consultant to Orion, Aweta and EES</li>
+                <li>2014 Establishment of Green Square International, consultant to Vijverberg Advies Japan, Haakman Flowerbulbs, NEM HRSG, Miyagi Prefecture Global Business Advisor</li>
+                <li>2015 to present Coordination of study tours on Agriculture, Welfare and Health Care in The Netherlands</li>
+              </ul>
+            </Column>
+            <Column>
+              <ul>
+                <li>1971年 オランダ在住</li>
+                <li>1976年 宝石鑑定士・後藤貿易会社</li>
+                <li>1982年 ジャパン・ユーロ・プロモーションズ創立</li>
+                <li>1983年 長崎オランダ村オープン</li>
+                <li>1988年 司馬遼太郎「明治創生期“太郎の国の物語”」</li>
+                <li>1989年 司馬遼太郎「街道をゆく“オランダ紀行”」</li>
+                <li>1992年 長崎ハウステンボスオープン</li>
+                
+              </ul>
+            </Column>
+          </Columns>
         </Section>
       </Container>
     </React.Fragment>
