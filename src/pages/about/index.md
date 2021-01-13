@@ -1,7 +1,7 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About Japan Euro Promotions
+title: 
 content:
   intro:
     jp:
@@ -12,7 +12,7 @@ content:
         この長い経験と限りない好奇心を持って、今後とも皆様のよきパートナーとしてご奉仕させて頂きたいと存じております。
     en:
       title: About Japan Euro Promotions
-      body:
+      body:s
         Japan Euro Promotions (JEP) has functioned as a gateway from Europe to Japan and Vice versa ever since 1982. Our Japanese and European clients vary from hospitality companies to research institutions, import and export companies environmental involved companies, but also to artists, cultural theme parcs, museums, TV-stations, newspapers,.
 
         Over the years JEP has built an extensive network of contacts in Japan and Europe and has acquired experience in various fields.
@@ -25,7 +25,9 @@ content:
         Takeshi Gotoh has lived in the Netherlands since 1971. Involved in business development of Nagasaki Holland Village and Huis Ten Bosch since 1983. Cooperated in the production of numerous programs of NHK such as Ryotaro Shiba's "Meiji era" Taro no Kuni no Monogatari "" and "Kaidowo Yuku ".  Served as a member of the Dutch Higher Education Council. Books written  include "Euthanasia and Staring at Death" (NHK Publishing) and "Country where people with dementia euthanize" (Mumbo Shobo).
 
         - 1971 Moved to the Netherlands
+
         - 1976 World Certified Gemnologist, establishment Goto Trading Company offering diamond expertise and trade in Antwerp
+        
         - 1982 Japan Euro Promotions founded for cultural and business exchange, organizing cultural exchange events
         - 1983 Building & Coordinating Dutch museums in Nagasaki Holland Village
         - 1989 Ryotaro Shiba "Travel in the Netherlands"
